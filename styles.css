@@ -3,6 +3,7 @@
   --text-font-fam: "Raleway", sans-serif;
   --primary-color: #e3f6f5;
   --secondary-color: #bae8e8;
+  --border-radius: 7px;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h4 {
   text-align: center;
 }
 
@@ -25,6 +27,12 @@ h2 {
   font-family: var(--heading-font-fam);
   font-weight: 500;
   font-size: 35px;
+}
+
+h4 {
+  font-family: var(--heading-font-fam);
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .links a {
@@ -46,12 +54,24 @@ h2 {
   top: -4px;
 }
 
-.project-titles-home {
-  margin-top: 70px;
+.landing-title-home {
+  margin-left: -65px;
 }
 
-.project-images-home img {
-  max-width: 35%;
-  border: solid 40px var(--secondary-color);
-  height: auto;
+.weather-title-home {
+  margin-left: -40px;
+}
+
+.home-row img {
+  max-width: 90%;
+  border: solid 25px var(--secondary-color);
+  border-radius: var(--border-radius);
+}
+
+.weather-pic {
+  height: 465px;
+}
+
+.container {
+  margin: 100px 0 120px 85px;
 }
