@@ -1,8 +1,40 @@
+body {
+  color: #272343;
+}
+
 h1,
 h2 {
   text-align: center;
 }
 
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+h2 {
+  padding: 0 0 40px 0;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
 .links a {
   text-decoration: none;
+  color: #272343;
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.hero {
+  background-color: #e3f6f5;
+  padding: 70px 0 40px;
+}
+
+.sun-icon {
+  font-size: 23px;
+  position: relative;
+  top: -4px;
 }
