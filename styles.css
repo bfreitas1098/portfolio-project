@@ -4,6 +4,7 @@
   --primary-color: #e3f6f5;
   --secondary-color: #bae8e8;
   --border-radius: 7px;
+  --box-shadow: 0px 0px 20px 5px #bae8e8;
 }
 
 body {
@@ -75,12 +76,12 @@ p {
 
 .home-row img {
   max-width: 90%;
-  border: solid 25px var(--secondary-color);
   border-radius: var(--border-radius);
+  box-shadow: 0px 0px 20px 5px rgba(25, 25, 25, 0.25);
 }
 
 .weather-pic {
-  height: 462px;
+  height: 450px;
 }
 
 .container {
