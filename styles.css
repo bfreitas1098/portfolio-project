@@ -4,7 +4,6 @@
   --primary-color: #e3f6f5;
   --secondary-color: #bae8e8;
   --border-radius: 7px;
-  --box-shadow: 0px 0px 20px 5px #bae8e8;
 }
 
 body {
@@ -78,7 +77,7 @@ p {
   max-width: 90%;
   border-radius: var(--border-radius);
   box-shadow: 0px 0px 20px 5px rgba(25, 25, 25, 0.25);
-  transition: all 300ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .home-row img:hover {
@@ -95,4 +94,42 @@ p {
 
 .container {
   margin: 100px 0 120px 85px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  .hero {
+    margin-right: -55px;
+  }
+
+  .container {
+    margin-left: 50px;
+  }
+
+  p {
+    margin-left: -35px;
+  }
+
+  .weather-app-description {
+    padding: 0 8px;
+  }
+
+  .weather-pic {
+    height: 265px;
+  }
+
+  .sun-icon {
+    font-size: 13px;
+  }
+
+  .links a {
+    font-size: 16px;
+  }
 }
