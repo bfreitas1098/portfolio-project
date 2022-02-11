@@ -98,27 +98,44 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   h2 {
     font-size: 21px;
   }
 
+  .row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .landing-title-home {
+    margin-left: 10px;
+  }
+
+  .weather-title-home {
+    margin-left: 10px;
+  }
+
   .hero {
-    margin-right: -55px;
+    display: block;
+    margin: 0 auto;
   }
 
   .container {
-    margin-left: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    margin-left: 25px;
   }
 
   p {
-    margin-left: -35px;
-  }
-
-  .weather-app-description {
-    padding: 0 8px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
   }
 
   .weather-pic {
@@ -128,7 +145,7 @@ p {
   .sun-icon {
     font-size: 13px;
     position: relative;
-    top: 3px;
+    top: -3px;
   }
 
   .links a {
