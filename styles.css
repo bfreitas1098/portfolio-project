@@ -35,6 +35,17 @@ h4 {
   font-size: 28px;
 }
 
+p {
+  font-family: var(--text-font-fam);
+  text-align: center;
+  margin-left: -65px;
+  font-size: 18px;
+}
+
+.weather-app-description {
+  padding: 0 60px;
+}
+
 .links a {
   text-decoration: none;
   color: #272343;
@@ -69,7 +80,7 @@ h4 {
 }
 
 .weather-pic {
-  height: 465px;
+  height: 462px;
 }
 
 .container {
