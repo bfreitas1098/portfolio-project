@@ -45,3 +45,13 @@ h2 {
   position: relative;
   top: -4px;
 }
+
+.project-titles-home {
+  margin-top: 70px;
+}
+
+.project-images-home img {
+  max-width: 35%;
+  border: solid 40px var(--secondary-color);
+  height: auto;
+}
