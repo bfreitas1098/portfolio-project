@@ -127,6 +127,8 @@ p {
 
   .sun-icon {
     font-size: 13px;
+    position: relative;
+    top: 3px;
   }
 
   .links a {
