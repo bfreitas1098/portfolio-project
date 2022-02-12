@@ -155,4 +155,8 @@ p {
   .links a {
     font-size: 16px;
   }
+
+  .weather-app-description {
+    margin-left: 0px !important;
+  }
 }
