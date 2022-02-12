@@ -48,7 +48,8 @@ p {
 }
 
 .landing-page-description {
-  padding: 0 60px;
+  padding: 0 110px;
+  border-spacing: 5px !important;
 }
 
 .links a {
