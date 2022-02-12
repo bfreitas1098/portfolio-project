@@ -43,8 +43,12 @@ p {
 }
 
 .weather-app-description {
-  padding: 0 5px;
   margin-left: 15px !important;
+  padding: 0 5px;
+}
+
+.landing-page-description {
+  padding: 0 60px;
 }
 
 .links a {
@@ -120,7 +124,7 @@ p {
   }
 
   .row {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -158,5 +162,19 @@ p {
 
   .weather-app-description {
     margin-left: 0px !important;
+  }
+
+  .landing-page-description {
+    padding: 0 5px;
+  }
+
+  .btn {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--secondary-color) !important;
+    font-family: var(--text-font-fam) !important;
+    padding: 8px !important;
+    border-radius: 5px;
   }
 }
