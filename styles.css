@@ -43,7 +43,8 @@ p {
 }
 
 .weather-app-description {
-  padding: 0 60px;
+  padding: 0 5px;
+  margin-left: 15px !important;
 }
 
 .links a {
@@ -74,10 +75,17 @@ p {
 }
 
 .home-row img {
-  max-width: 90%;
   border-radius: var(--border-radius);
   box-shadow: 0px 0px 20px 5px rgba(25, 25, 25, 0.25);
   transition: all 250ms ease-in-out;
+}
+
+.landing-pic {
+  max-width: 85%;
+}
+
+.weather-pic {
+  max-width: 100%;
 }
 
 .home-row img:hover {
@@ -86,10 +94,6 @@ p {
 
 .pop-up {
   perspective: 200px;
-}
-
-.weather-pic {
-  height: 450px;
 }
 
 .container {
@@ -103,6 +107,16 @@ p {
 
   h2 {
     font-size: 21px;
+  }
+
+  img {
+    margin-left: 30px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
   }
 
   .row {
@@ -128,18 +142,8 @@ p {
     margin: 0 auto;
   }
 
-  img {
-    margin-left: 25px;
-  }
-
-  p {
-    text-align: center;
-    font-size: 12px;
-    margin-left: 5px;
-  }
-
   .weather-pic {
-    height: 265px;
+    max-width: 85%;
   }
 
   .sun-icon {
