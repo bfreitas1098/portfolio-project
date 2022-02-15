@@ -185,3 +185,13 @@ p {
     border-radius: 5px;
   }
 }
+
+@media (max-width: 1000px) {
+  .container {
+    margin-left: 115px;
+  }
+
+  .weather-pic {
+    max-width: 100%;
+  }
+}
