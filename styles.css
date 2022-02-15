@@ -42,9 +42,15 @@ p {
   font-size: 18px;
 }
 
+.featured-line {
+  font-family: var(--text-font-fam);
+  font-weight: 500;
+  font-size: 17px;
+}
+
 .weather-app-description {
   margin-left: 15px !important;
-  padding: 0 5px;
+  padding: 0 15px;
 }
 
 .landing-page-description {
