@@ -220,7 +220,8 @@ p {
   }
 
   .about-text {
-    padding: 5px;
+    padding: 1px;
+    margin-left: 0px;
   }
 }
 
