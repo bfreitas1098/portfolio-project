@@ -27,24 +27,73 @@
     <link rel="stylesheet" href="styles.css" />
 
     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/28a96dd6cb.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Barbara Freitas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="about-container container">
-      <h1 class="mt-5">About Me</h1>
-      <p class="mt-4 about-text">
-        Hey there! My name is Barbara Freitas and I am a front-end developer in
-        the making. The technologies and languages I use and have used in the
-        projects shown here on the <a href="#">My Work</a> page include HTML,
-        CSS, JavaScript, ReactJS, responsive technologies, Bootstrap and GitHub.
-        Besides being a future front-end developer I am a 23-year-old Brazilian
-        living in beautiful South Florida where I spend my days coding new
-        projects and strength training. Thank you for visiting my site and
-        connect with me through my links below or on my
-        <a href="#">Contact Me</a> page.
-      </p>
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img
+            src="https://www.itresourcescorp.com/wp-content/uploads/2016/06/woman-coding-at-night.jpg"
+            alt=""
+            width="350px"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-sm-6 about-content">
+          <div class="about-heading"><h1>About Me</h1></div>
+          <p class="mt-4 about-text">
+            Hey there! My name is Barbara Freitas and I am a front-end developer
+            in the making. The technologies and languages I use and have used in
+            the projects shown here on the <a href="#">My Work</a> page include
+            HTML, CSS, JavaScript, ReactJS, responsive technologies, Bootstrap
+            and GitHub. Besides being a future front-end developer I am a
+            23-year-old Brazilian living in beautiful South Florida where I
+            spend my days coding new projects and strength training. Thank you
+            for visiting my site and connect with me through my links below or
+            on my <a href="#">Contact Me</a> page.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -16,6 +16,12 @@ h4 {
   text-align: center;
 }
 
+nav {
+  color: #272343 !important;
+  font-family: var(--text-font-fam);
+  background-color: var(--secondary-color) !important;
+}
+
 h1 {
   font-family: var(--heading-font-fam);
   font-weight: 700;
@@ -42,12 +48,23 @@ p {
   font-size: 18px;
 }
 
+.about-heading h1 {
+  margin-left: -55px !important;
+}
+
 .about-text {
   font-size: 15px !important;
+  padding: 15px;
+  background-color: var(--primary-color);
+}
+
+.about-text a {
+  color: #272343;
 }
 
 .about-container {
-  max-width: 800px;
+  max-width: 1000px;
+  margin-top: 170px;
 }
 
 .featured-line {
@@ -138,7 +155,7 @@ p {
     margin-left: 5px;
   }
 
-  .row {
+  .home-row {
     margin-top: 50px;
     margin-bottom: 100px;
   }
