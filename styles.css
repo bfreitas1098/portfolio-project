@@ -225,7 +225,7 @@ p {
   }
 }
 
-@media (min-width: 400px) and (max-width: 450px) {
+@media (min-width: 400px) and (max-width: 499px) {
   h1 {
     font-size: 45px;
   }
@@ -310,7 +310,7 @@ p {
   }
 }
 
-@media (min-width: 460px) and (max-width: 750px) {
+@media (min-width: 500px) and (max-width: 750px) {
   h1 {
     font-size: 45px;
   }
