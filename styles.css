@@ -42,6 +42,14 @@ p {
   font-size: 18px;
 }
 
+.about-text {
+  font-size: 15px !important;
+}
+
+.about-container {
+  max-width: 800px;
+}
+
 .featured-line {
   font-family: var(--text-font-fam);
   font-weight: 500;
@@ -107,7 +115,7 @@ p {
   perspective: 200px;
 }
 
-.container {
+.index-container {
   margin: 100px 0 120px 55px;
 }
 
@@ -148,7 +156,7 @@ p {
     margin: 0 auto;
   }
 
-  .container {
+  .index-container {
     display: block;
     margin: 0 auto;
   }
@@ -183,7 +191,7 @@ p {
 }
 
 @media (min-width: 760px) and (max-width: 800px) {
-  .container {
+  .index-container {
     margin-left: 18px;
     margin-bottom: 100px;
   }
@@ -205,7 +213,7 @@ p {
 }
 
 @media (min-width: 840px) and (max-width: 851px) {
-  .container {
+  .index-container {
     margin-left: 68px;
   }
 }
@@ -215,13 +223,13 @@ p {
     margin-left: 5px;
   }
 
-  .container {
+  .index-container {
     margin-left: 90px;
   }
 }
 
 @media (min-width: 900px) and (max-width: 999px) {
-  .container {
+  .index-container {
     margin-left: 115px;
   }
 
@@ -231,19 +239,19 @@ p {
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {
-  .container {
+  .index-container {
     margin-left: 35px;
   }
 }
 
 @media (min-width: 1101px) and (max-width: 1200px) {
-  .container {
+  .index-container {
     margin-left: 110px;
   }
 }
 
 @media (min-width: 1201px) and (max-width: 1280px) {
-  .container {
+  .index-container {
     margin-left: 70px;
   }
 }
