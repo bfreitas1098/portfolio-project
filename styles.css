@@ -108,10 +108,10 @@ p {
 }
 
 .container {
-  margin: 100px 0 120px 85px;
+  margin: 100px 0 120px 55px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 750px) {
   h1 {
     font-size: 45px;
   }
@@ -121,7 +121,7 @@ p {
   }
 
   img {
-    margin-left: 30px;
+    margin-left: 5px;
   }
 
   p {
@@ -153,10 +153,6 @@ p {
     margin: 0 auto;
   }
 
-  .weather-pic {
-    max-width: 85%;
-  }
-
   .sun-icon {
     font-size: 13px;
     position: relative;
@@ -186,9 +182,10 @@ p {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) and (max-width: 800px) {
   .container {
-    margin-left: 115px;
+    margin-left: 18px;
+    margin-bottom: 100px;
   }
 
   .weather-pic {
@@ -198,5 +195,55 @@ p {
 
   .weather-title-home {
     margin-left: 15px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 830px) {
+  .weather-title-home {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 851px) {
+  .container {
+    margin-left: 68px;
+  }
+}
+
+@media (min-width: 852px) and (max-width: 899px) {
+  .weather-title-home {
+    margin-left: 5px;
+  }
+
+  .container {
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+  .container {
+    margin-left: 115px;
+  }
+
+  .weather-title-home {
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .container {
+    margin-left: 35px;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+  .container {
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1280px) {
+  .container {
+    margin-left: 70px;
   }
 }
