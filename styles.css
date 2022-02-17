@@ -185,6 +185,10 @@ p {
     font-size: 21px;
   }
 
+  h5 {
+    font-size: 20px;
+  }
+
   img {
     margin-left: 5px;
   }
@@ -333,6 +337,11 @@ p {
   .bio-pic {
     margin-left: 20px;
   }
+
+  .work-weather-text,
+  .work-landing-text {
+    margin-top: 32px !important;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 750px) {
@@ -411,6 +420,11 @@ p {
   .about-text {
     padding: 1px;
     margin-left: 0px;
+  }
+
+  .work-weather-text,
+  .work-landing-text {
+    margin-top: 32px !important;
   }
 }
 
