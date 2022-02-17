@@ -28,6 +28,10 @@ h1 {
   font-size: 75px;
 }
 
+.work-heading {
+  font-size: 60px;
+}
+
 h2 {
   padding: 0 0 40px 0;
   font-family: var(--heading-font-fam);
@@ -41,11 +45,37 @@ h4 {
   font-size: 28px;
 }
 
+h5 {
+  font-family: var(--heading-font-fam);
+  font-size: 35px;
+  margin-bottom: 170px;
+}
+
 p {
   font-family: var(--text-font-fam);
   text-align: center;
   margin-left: -70px;
   font-size: 18px;
+}
+
+.work-landing-text {
+  margin-left: 0;
+  padding: 0 22px;
+}
+
+.work-weather-text {
+  margin-left: 0;
+  padding: 0 45px;
+}
+
+.weather-row {
+  margin-top: 120px;
+}
+
+.work-container {
+  max-width: 900px;
+  margin-top: 130px;
+  margin-bottom: 150px;
 }
 
 .about-container {
@@ -81,6 +111,16 @@ p {
 .landing-page-description {
   padding: 0 110px;
   border-spacing: 5px !important;
+}
+
+.btn {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--secondary-color) !important;
+  font-family: var(--text-font-fam) !important;
+  padding: 8px !important;
+  border-radius: 5px;
 }
 
 .links a {
@@ -196,16 +236,6 @@ p {
     padding: 0 5px;
   }
 
-  .btn {
-    max-width: 150px;
-    display: block;
-    margin: 0 auto;
-    background-color: var(--secondary-color) !important;
-    font-family: var(--text-font-fam) !important;
-    padding: 8px !important;
-    border-radius: 5px;
-  }
-
   .bio-pic {
     margin-left: 8px;
   }
@@ -279,16 +309,6 @@ p {
 
   .landing-page-description {
     padding: 0 5px;
-  }
-
-  .btn {
-    max-width: 150px;
-    display: block;
-    margin: 0 auto;
-    background-color: var(--secondary-color) !important;
-    font-family: var(--text-font-fam) !important;
-    padding: 8px !important;
-    border-radius: 5px;
   }
 
   .about-container {
@@ -368,16 +388,6 @@ p {
 
   .landing-page-description {
     padding: 0 5px;
-  }
-
-  .btn {
-    max-width: 150px;
-    display: block;
-    margin: 0 auto;
-    background-color: var(--secondary-color) !important;
-    font-family: var(--text-font-fam) !important;
-    padding: 8px !important;
-    border-radius: 5px;
   }
 
   .bio-pic {
