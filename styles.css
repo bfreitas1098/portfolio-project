@@ -287,8 +287,9 @@ p {
     margin-top: 32px !important;
   }
 
-  .contact-container {
-    margin-right: 0px;
+  .mail-col,
+  .github-col {
+    margin-left: -180px;
   }
 }
 
@@ -378,6 +379,11 @@ p {
   .contact-heading {
     font-size: 25px;
   }
+
+  .mail-col,
+  .github-col {
+    margin-left: -180px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 750px) {
@@ -465,6 +471,15 @@ p {
   .work-weather-text,
   .work-landing-text {
     margin-top: 32px !important;
+  }
+
+  .contact-heading {
+    font-size: 25px;
+  }
+
+  .mail-col,
+  .github-col {
+    margin-left: -180px;
   }
 }
 
