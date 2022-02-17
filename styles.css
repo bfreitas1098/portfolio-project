@@ -12,7 +12,8 @@ body {
 
 h1,
 h2,
-h4 {
+h4,
+h5 {
   text-align: center;
 }
 
@@ -273,6 +274,10 @@ p {
     font-size: 21px;
   }
 
+  h5 {
+    font-size: 20px;
+  }
+
   p {
     text-align: center;
     font-size: 12px;
@@ -351,6 +356,10 @@ p {
 
   h2 {
     font-size: 21px;
+  }
+
+  h5 {
+    font-size: 20px;
   }
 
   img {
