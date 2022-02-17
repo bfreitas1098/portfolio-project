@@ -3,11 +3,12 @@
   --text-font-fam: "Raleway", sans-serif;
   --primary-color: #e3f6f5;
   --secondary-color: #bae8e8;
+  --text-color: #272343;
   --border-radius: 7px;
 }
 
 body {
-  color: #272343;
+  color: var(--text-color);
 }
 
 h1,
@@ -18,7 +19,7 @@ h5 {
 }
 
 nav {
-  color: #272343 !important;
+  color: var(--text-color) !important;
   font-family: var(--text-font-fam);
   background-color: var(--secondary-color) !important;
 }
@@ -73,6 +74,28 @@ p {
   margin-top: 120px;
 }
 
+.contact-container {
+  max-width: 600px;
+}
+
+.contact-container a {
+  color: var(--text-color);
+  opacity: 80%;
+}
+
+.contact-row {
+  margin-top: 110px;
+}
+
+.contact-last-row {
+  margin-top: 110px;
+  margin-bottom: 150px;
+}
+
+.contact-heading {
+  text-align: left;
+}
+
 .work-container {
   max-width: 900px;
   margin-top: 130px;
@@ -95,7 +118,7 @@ p {
 }
 
 .about-text a {
-  color: #272343;
+  color: var(--text-color);
 }
 
 .featured-line {
@@ -126,7 +149,7 @@ p {
 
 .links a {
   text-decoration: none;
-  color: #272343;
+  color: var(--text-color);
   font-size: 19px;
   font-family: var(--text-font-fam);
   font-weight: 500;
