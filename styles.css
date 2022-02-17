@@ -28,10 +28,6 @@ h1 {
   font-size: 75px;
 }
 
-.work-heading {
-  font-size: 60px;
-}
-
 h2 {
   padding: 0 0 40px 0;
   font-family: var(--heading-font-fam);
@@ -56,6 +52,10 @@ p {
   text-align: center;
   margin-left: -70px;
   font-size: 18px;
+}
+
+.work-heading {
+  font-size: 60px;
 }
 
 .work-landing-text {
