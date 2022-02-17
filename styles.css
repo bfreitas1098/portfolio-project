@@ -253,6 +253,11 @@ p {
     padding: 1px;
     margin-left: 0px;
   }
+
+  .work-weather-text,
+  .work-landing-text {
+    margin-top: 32px !important;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
