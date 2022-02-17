@@ -14,7 +14,8 @@ body {
 h1,
 h2,
 h4,
-h5 {
+h5,
+.bottom-line {
   text-align: center;
 }
 
@@ -217,6 +218,15 @@ i:hover {
   margin: 100px 0 120px 55px;
 }
 
+.bottom-line {
+  font-family: var(--text-font-fam);
+  font-weight: 500;
+}
+
+.bottom-line a {
+  opacity: 70%;
+}
+
 @media (min-width: 0px) and (max-width: 399px) {
   h1 {
     font-size: 45px;
@@ -308,6 +318,10 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+  }
+
+  .bottom-line {
+    font-size: 12px;
   }
 }
 
@@ -402,6 +416,10 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+  }
+
+  .bottom-line {
+    font-size: 12px;
   }
 }
 
@@ -500,6 +518,10 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+  }
+
+  .bottom-line {
+    font-size: 12px;
   }
 }
 
