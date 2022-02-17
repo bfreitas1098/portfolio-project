@@ -93,7 +93,7 @@ p {
 }
 
 .contact-heading {
-  text-align: left;
+  text-align: center;
 }
 
 .work-container {
@@ -286,6 +286,10 @@ p {
   .work-landing-text {
     margin-top: 32px !important;
   }
+
+  .contact-container {
+    margin-right: 0px;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
@@ -369,6 +373,10 @@ p {
   .work-weather-text,
   .work-landing-text {
     margin-top: 32px !important;
+  }
+
+  .contact-heading {
+    font-size: 25px;
   }
 }
 
