@@ -227,6 +227,14 @@ i:hover {
   opacity: 70%;
 }
 
+.mail-col,
+.linkedin-col,
+.github-col {
+  background-color: var(--primary-color);
+  padding: 15px;
+  border-radius: var(--border-radius);
+}
+
 @media (min-width: 0px) and (max-width: 399px) {
   h1 {
     font-size: 45px;
@@ -238,6 +246,7 @@ i:hover {
 
   h5 {
     font-size: 20px;
+    margin-bottom: 85px;
   }
 
   img {
@@ -318,6 +327,8 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+    padding: 10px;
+    font-size: 12px;
   }
 
   .bottom-line {
@@ -336,6 +347,7 @@ i:hover {
 
   h5 {
     font-size: 20px;
+    margin-bottom: 95px;
   }
 
   p {
@@ -416,6 +428,8 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+    padding: 10px;
+    font-size: 12px;
   }
 
   .bottom-line {
@@ -434,6 +448,7 @@ i:hover {
 
   h5 {
     font-size: 20px;
+    margin-bottom: 95px;
   }
 
   img {
@@ -518,6 +533,8 @@ i:hover {
   .github-col,
   .linkedin-col {
     margin-left: -180px;
+    padding: 10px;
+    font-size: 12px;
   }
 
   .bottom-line {
