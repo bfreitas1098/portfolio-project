@@ -85,6 +85,14 @@ i:hover {
   padding: 0 45px;
 }
 
+.react-weather-content {
+  margin-left: 40px;
+}
+
+.react-weather-text {
+  margin-left: 0px;
+}
+
 .weather-row {
   margin-top: 120px;
 }
@@ -153,6 +161,14 @@ i:hover {
   border-spacing: 5px !important;
 }
 
+.react-weather-description {
+  padding: 0 80px 0;
+}
+
+.react-weather-heading {
+  margin-left: -80px;
+}
+
 .btn {
   max-width: 150px;
   display: block;
@@ -198,6 +214,10 @@ i:hover {
   transition: all 250ms ease-in-out;
 }
 
+.react-img {
+  max-width: 450px;
+}
+
 .landing-pic {
   max-width: 85%;
 }
@@ -225,6 +245,7 @@ i:hover {
 
 .bottom-line a {
   opacity: 70%;
+  text-decoration: none;
 }
 
 .mail-col,
