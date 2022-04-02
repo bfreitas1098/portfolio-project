@@ -153,12 +153,12 @@ i:hover {
 
 .weather-app-description {
   margin-left: 15px !important;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .landing-page-description {
   padding: 0 110px;
-  border-spacing: 5px !important;
+  margin-left: -100px;
 }
 
 .react-weather-description {
@@ -199,11 +199,11 @@ i:hover {
 }
 
 .landing-title-home {
-  margin-left: -65px;
+  margin-left: -90px;
 }
 
 .weather-title-home {
-  margin-left: -40px;
+  margin-left: 50px;
 }
 
 .home-row img,
@@ -223,7 +223,8 @@ i:hover {
 }
 
 .weather-pic {
-  max-width: 100%;
+  max-width: 85%;
+  margin-left: 60px;
 }
 
 .home-row img:hover {
