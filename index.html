@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Freitas - Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/28a96dd6cb.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
+    <nav class="flex">
       <div id="logo">BarbaraFreitas</div>
       <ul>
         <li>About</li>
@@ -16,7 +20,11 @@
         <li>Contact</li>
       </ul>
     </nav>
-    <section id="hero-section">
+    <div id="scroll">
+      <span id="scrollbar1"></span>
+      <span id="scrollbar2"></span>
+    </div>
+    <section id="hero-section" class="flex">
       <div>
         <div id="headline">
           <div>Hello, I’m Barbara Freitas</div>
@@ -27,7 +35,33 @@
         </div>
         <btn id="CTA"> View My Projects </btn>
       </div>
-      <img src="portrait.png" alt="Portrait" id="portrait" />
+      <div class="flex">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/429/original/portrait.png?1670616734"
+          alt="Portrait"
+          id="portrait"
+        />
+        <div id="hero-icons" class="flex">
+          <a
+            href="mailto:bfreitas1098@hotmail.com"
+            target="_blank"
+            title="Email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/bfreitas1098"
+            target="_blank"
+            title="Github"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/barbara-freitas-28b941228"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
     </section>
   </body>
 </html>
