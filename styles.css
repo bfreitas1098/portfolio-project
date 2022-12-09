@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Work+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color-dark: #222831;
+  --primary-color-neutral: #393e46;
+  --primary-color-light: #eeeeee;
+  --secondary-color-dark: #ffc233;
+  --secondary-color-neutral: #ffd369;
+  --secondary-color-light: #ffe7ad;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+#logo {
+  font-family: "Lobster Two", cursive;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.875rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
