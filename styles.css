@@ -13,6 +13,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: var(--primary-color-dark);
+}
+
+nav {
+  display: flex;
 }
 
 #logo {
@@ -20,13 +25,28 @@ body {
   font-weight: bold;
   font-style: italic;
   font-size: 1.875rem;
-}
-
-nav {
-  display: flex;
+  color: var(--secondary-color-neutral);
+  margin: 3.125rem 0 0 9.25rem;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 4.375rem;
+  margin: 3.75rem 9.31rem 0 36.75rem;
+}
+
+nav li {
+  color: var(--secondary-color-neutral);
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: color ease-in-out 100ms;
+}
+
+nav li:hover {
+  color: var(--secondary-color-light);
 }
