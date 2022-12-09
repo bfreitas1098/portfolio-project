@@ -7,11 +7,16 @@
   --secondary-color-dark: #ffc233;
   --secondary-color-neutral: #ffd369;
   --secondary-color-light: #ffe7ad;
+  --transition: ease-in-out 100ms;
+  --border-radius: 5px;
+  --left-margin: 9.25rem;
+  --right-margin: 9.31rem;
 }
 
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   background-color: var(--primary-color-dark);
 }
@@ -26,7 +31,7 @@ nav {
   font-style: italic;
   font-size: 1.875rem;
   color: var(--secondary-color-neutral);
-  margin: 3.125rem 0 0 9.25rem;
+  margin: 3.125rem 0 0 var(--left-margin);
 }
 
 nav ul {
@@ -37,16 +42,58 @@ nav ul {
   align-items: center;
   padding: 0;
   gap: 4.375rem;
-  margin: 3.75rem 9.31rem 0 36.75rem;
+  margin: 3.75rem var(--right-margin) 0 36.75rem;
 }
 
 nav li {
   color: var(--secondary-color-neutral);
   font-weight: bold;
   font-size: 1.25rem;
-  transition: color ease-in-out 100ms;
+  transition: color var(--transition);
 }
 
 nav li:hover {
   color: var(--secondary-color-light);
+}
+
+#hero-section {
+  display: flex;
+}
+
+#headline {
+  color: var(--primary-color-light);
+  margin: 9.375rem 0 9.375rem var(--left-margin);
+}
+
+#headline div:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#headline div:nth-child(2) {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 3.313rem;
+  line-height: 125%;
+}
+
+#CTA {
+  padding: 0.94rem 1.44rem;
+  color: var(--primary-color-dark);
+  background-color: var(--secondary-color-dark);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: var(--left-margin);
+  transition: all var(--transition);
+}
+
+#CTA:hover {
+  background-color: var(--secondary-color-light);
+}
+
+#portrait {
+  height: 39rem;
+  margin-top: 5.625rem;
+  margin-left: 8.5rem;
 }
