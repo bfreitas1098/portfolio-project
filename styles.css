@@ -41,10 +41,11 @@ nav ul {
   margin: 3.75rem 0 0 36.75rem;
 }
 
-nav li {
+nav li a {
   color: var(--secondary-color-neutral);
   font-weight: 600;
   font-size: 1.25rem;
+  text-decoration: none;
   transition: color var(--transition);
 }
 
@@ -54,12 +55,12 @@ nav li:hover {
 
 #scroll {
   position: fixed;
-  margin: 10.5rem 0 0 2.19rem;
+  margin: 10rem 0 0 2.19rem;
 }
 
 #scrollbar1 {
   border: 4px solid #5c6470;
-  font-size: 20rem;
+  font-size: 22.5rem;
   border-radius: 1.25rem;
 }
 
@@ -69,7 +70,7 @@ nav li:hover {
   border-radius: 1.25rem;
   position: relative;
   left: -0.5rem;
-  top: -16.5rem;
+  top: -18.65rem;
 }
 
 #headline {
@@ -77,12 +78,13 @@ nav li:hover {
   margin: 9.375rem 0 9.375rem var(--left-margin);
 }
 
-#headline div:nth-child(1) {
+.subtitle {
   font-size: 2rem;
   font-weight: 400;
+  line-height: 125%;
 }
 
-#headline div:nth-child(2) {
+h1 {
   margin-top: 5px;
   font-weight: 700;
   font-size: 3.313rem;
@@ -130,4 +132,101 @@ i {
 
 i:hover {
   color: var(--primary-color-light);
+}
+
+#about-section {
+  background-color: #1a1e24;
+  height: 93rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 111%;
+  color: var(--primary-color-light);
+}
+
+#about-me {
+  top: 60rem;
+}
+
+p {
+  color: var(--primary-color-light);
+  font-size: 1.5rem;
+  line-height: 154%;
+  margin: 0 var(--right-margin) 0 var(--left-margin);
+}
+
+#about-section p {
+  top: 70rem;
+}
+
+#skills-title {
+  top: 100rem;
+}
+
+#about-me,
+#about-section p,
+#skills-title,
+#skills {
+  position: absolute;
+}
+
+#about-me,
+#skills-title,
+#skills {
+  margin-left: var(--left-margin);
+}
+
+#skills {
+  top: 110rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.56rem;
+  margin-right: var(--right-margin);
+}
+
+#skills div {
+  background-color: var(--primary-color-dark);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color-light);
+  padding: 1.375rem 5.625rem;
+  gap: 0.94rem;
+  border-radius: var(--border-radius);
+}
+
+#skills i {
+  font-size: 3.75rem;
+  color: #ffd369;
+}
+
+#skills .subtitle {
+  font-size: 1.75rem;
+}
+
+#div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+#div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#div4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+#div5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#div6 {
+  grid-area: 2 / 3 / 3 / 4;
 }
