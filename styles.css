@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   background-color: var(--primary-color-dark);
+  overflow-x: hidden;
 }
 
 #logo {
@@ -229,4 +230,36 @@ p {
 
 #div6 {
   grid-area: 2 / 3 / 3 / 4;
+}
+
+#portfolio-section h3 {
+  margin: 7.5rem 0 0 var(--left-margin);
+}
+
+#resume {
+  position: absolute;
+  top: 149.2rem;
+  left: 63rem;
+  text-decoration: none;
+}
+
+#resume span,
+#resume i {
+  color: var(--secondary-color-dark);
+}
+
+#resume span {
+  font-weight: 600;
+  font-size: 1.56rem;
+  margin-right: 0.8rem;
+}
+
+#resume i {
+  font-size: 1.5rem;
+}
+
+#websites {
+  margin: 6.25rem 0 0 var(--left-margin);
+  color: var(--primary-color-light);
+  font-size: 1.3rem;
 }
