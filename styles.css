@@ -9,8 +9,8 @@
   --secondary-color-light: #ffe7ad;
   --transition: ease-in-out 100ms;
   --border-radius: 5px;
-  --left-margin: 9.25rem;
-  --right-margin: 9.31rem;
+  --left-margin: 8rem;
+  --right-margin: 10rem;
 }
 
 body {
@@ -56,7 +56,8 @@ nav li:hover {
 
 #scroll {
   position: fixed;
-  margin: 10rem 0 0 2.19rem;
+  top: 15.5rem;
+  left: 2rem;
 }
 
 #scrollbar1 {
@@ -185,7 +186,7 @@ p {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 1.25rem;
   grid-row-gap: 1.56rem;
-  margin-right: var(--right-margin);
+  width: 72rem;
 }
 
 #skills div {
@@ -239,7 +240,7 @@ p {
 #resume {
   position: absolute;
   top: 149.2rem;
-  left: 63rem;
+  left: 68.2rem;
   text-decoration: none;
 }
 
@@ -260,6 +261,57 @@ p {
 
 #websites {
   margin: 6.25rem 0 0 var(--left-margin);
+}
+
+h4 {
   color: var(--primary-color-light);
   font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.frame {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1.25rem;
+  row-gap: 1.25rem;
+  background-color: var(--primary-color-neutral);
+  border-radius: var(--border-radius);
+  margin: 3.125rem 0 0 var(--left-margin);
+  padding: 1.75rem;
+  width: 78%;
+}
+
+.frame div,
+.frame div img {
+  border-radius: var(--border-radius);
+  width: 22rem;
+  height: 14rem;
+  margin-left: 1px;
+  transition: all ease-in-out 150ms;
+}
+
+.overlay {
+  width: 22.1rem;
+  height: 14rem;
+  position: absolute;
+  border-radius: var(--border-radius);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay a {
+  color: var(--primary-color-light);
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid var(--primary-color-light);
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+
+#figma {
+  margin: 9.375rem 0 0 var(--left-margin);
 }
