@@ -58,6 +58,7 @@ nav li:hover {
   position: fixed;
   top: 15.5rem;
   left: 2rem;
+  z-index: 1;
 }
 
 #scrollbar1 {
@@ -122,6 +123,7 @@ h1 {
 
 #hero-icons i {
   margin-bottom: 1.25rem;
+  color: #8097b9;
 }
 
 .flex {
@@ -129,7 +131,6 @@ h1 {
 }
 
 i {
-  color: #8097b9;
   transition: color ease-in-out 50ms;
 }
 
@@ -344,4 +345,23 @@ footer i {
 footer span {
   color: var(--primary-color-light);
   font-size: 1rem;
+}
+
+#design1,
+#design2 {
+  position: absolute;
+  z-index: -1;
+}
+
+#design2 {
+  left: 74rem;
+  top: 210rem;
+}
+
+#design2 img {
+  height: 50rem;
+}
+
+#design1 {
+  top: 140rem;
 }
