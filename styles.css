@@ -50,7 +50,7 @@ nav li a {
   transition: color var(--transition);
 }
 
-nav li:hover {
+nav li a:hover {
   color: var(--secondary-color-light);
 }
 
@@ -303,7 +303,8 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  opacity: 0%;
+  transition: all ease-in-out 150ms;
 }
 
 .overlay a {
@@ -313,6 +314,10 @@ h4 {
   border: 2px solid var(--primary-color-light);
   border-radius: 30px;
   padding: 0.5rem;
+}
+
+.overlay:hover {
+  opacity: 100%;
 }
 
 #figma {
