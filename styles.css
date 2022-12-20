@@ -394,6 +394,10 @@ footer span {
 }
 
 @media only screen and (max-width: 834px) {
+  body {
+    overflow-x: hidden;
+  }
+
   nav,
   nav ul,
   nav ul li a {
@@ -527,7 +531,7 @@ footer span {
 
   #frame1 section,
   #frame2 section {
-    width: 72%;
+    width: 38rem;
   }
 
   #resume {
@@ -540,7 +544,7 @@ footer span {
   }
 
   #design2 {
-    left: 41rem;
+    left: 38rem;
     top: 215rem;
   }
 
