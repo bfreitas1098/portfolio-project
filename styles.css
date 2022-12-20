@@ -134,7 +134,9 @@ i {
   transition: color ease-in-out 50ms;
 }
 
-i:hover {
+i:hover,
+#hero-icons a:hover,
+#hero-icons i:hover {
   color: var(--primary-color-light);
 }
 
@@ -211,27 +213,37 @@ p {
   font-size: 1.75rem;
 }
 
-#div1 {
+#frame1 section {
+  display: grid;
+}
+
+.div1,
+#frame1 section div:nth-child(1) {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#div2 {
+.div2,
+#frame1 section div:nth-child(2) {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-#div3 {
+.div3,
+#frame1 section div:nth-child(3) {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-#div4 {
+.div4,
+#frame1 section div:nth-child(4) {
   grid-area: 2 / 1 / 3 / 2;
 }
 
-#div5 {
+.div5,
+#frame1 section div:nth-child(5) {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-#div6 {
+.div6,
+#frame1 section div:nth-child(6) {
   grid-area: 2 / 3 / 3 / 4;
 }
 
@@ -271,7 +283,8 @@ h4 {
   font-weight: 400;
 }
 
-.frame {
+#frame1 section,
+#frame2 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -284,13 +297,14 @@ h4 {
   width: 78%;
 }
 
-.frame div,
-.frame div img {
+#frame1 section div,
+#frame1 section div img,
+#frame2 section div,
+#frame2 section div img {
   border-radius: var(--border-radius);
   width: 22rem;
   height: 14rem;
   margin-left: 1px;
-  transition: all ease-in-out 150ms;
 }
 
 .overlay {
