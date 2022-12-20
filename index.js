@@ -24,10 +24,11 @@ ${Array.from(
   webImg,
   (image) =>
     `<div><span class="overlay"><a href="#" target="_blank">Open</a></span>
+    <a href="/" target="_blank">
             <img
               src=${image}
               alt="website"
-            /></div>
+            /></a></div>
           `
 ).join("")}
 </section>`;
@@ -37,10 +38,11 @@ ${Array.from(
   figmaImg,
   (image) =>
     `<div><span class="overlay"><a href="#" target="_blank">Open</a></span>
+    <a href="/" target="_blank">
             <img
               src=${image}
               alt="website"
-            /></div>
+            /></a></div>
           `
 ).join("")}
 </section>`;
