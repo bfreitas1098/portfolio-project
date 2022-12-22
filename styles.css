@@ -14,6 +14,10 @@
   --tablet-margin: 4.8rem;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,32 +25,30 @@ body {
   font-family: "Work Sans", sans-serif;
   background-color: var(--primary-color-dark);
   overflow-x: hidden;
+  margin: 10em;
 }
 
 #logo {
   font-family: "Lobster Two", cursive;
   font-weight: bold;
   font-style: italic;
-  font-size: 1.875rem;
+  font-size: 3rem;
   color: var(--secondary-color-neutral);
-  margin: 3.125rem 0 0 var(--desktop-left-margin);
+  justify-content: flex-start;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-items: flex-end;
   align-items: center;
   padding: 0;
-  gap: 4.375rem;
-  margin: 3.75rem 0 0 36.75rem;
+  gap: 7em;
 }
 
 nav li a {
   color: var(--secondary-color-neutral);
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
   transition: color var(--transition);
 }
@@ -57,14 +59,14 @@ nav li a:hover {
 
 #scroll {
   position: fixed;
-  top: 15.5rem;
-  left: 2rem;
+  top: 25.5em;
+  left: 2em;
   z-index: 1;
 }
 
 #scrollbar1 {
   border: 4px solid #5c6470;
-  font-size: 22.5rem;
+  font-size: 30rem;
   border-radius: 1.25rem;
 }
 
@@ -74,36 +76,35 @@ nav li a:hover {
   border-radius: 1.25rem;
   position: absolute;
   left: 0;
-  top: -4px;
+  top: -0.4em;
 }
 
 #headline {
   color: var(--primary-color-light);
-  margin: 9.375rem 0 9.375rem var(--desktop-left-margin);
+  margin: 10em 0 5em 0;
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 3.2rem;
   font-weight: 400;
   line-height: 125%;
 }
 
 h1 {
-  margin-top: 5px;
+  margin-top: 0.08em;
   font-weight: 700;
-  font-size: 3.313rem;
+  font-size: 6rem;
   line-height: 125%;
 }
 
 #CTA {
-  padding: 0.94rem 1.44rem;
+  padding: 0.6em;
   color: var(--primary-color-dark);
   background-color: var(--secondary-color-dark);
   border-radius: var(--border-radius);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-decoration: none;
-  margin-left: var(--desktop-left-margin);
   transition: all var(--transition);
 }
 
@@ -112,18 +113,19 @@ h1 {
 }
 
 #portrait {
-  height: 36rem;
-  margin: 7rem 0 0 6rem;
+  height: 60rem;
+  margin: 9rem 0 0 12.5rem;
 }
 
 #hero-icons {
+  justify-content: flex-end;
+  align-self: flex-start;
   flex-direction: column;
-  margin: 8.5rem 0 0 2.6rem;
-  font-size: 2.19rem;
+  font-size: 3.5rem;
 }
 
 #hero-icons i {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.57em;
   color: #8097b9;
 }
 
@@ -141,7 +143,7 @@ i:hover,
   color: var(--primary-color-light);
 }
 
-#about-section {
+/* #about-section {
   background-color: #1a1e24;
   height: 93rem;
 }
@@ -165,7 +167,7 @@ p {
 
 #about-section p {
   top: 70rem;
-}
+} */
 
 #skills-title {
   top: 100rem;
@@ -186,11 +188,13 @@ p {
 
 #skills {
   top: 110rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  /* grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 1.25rem;
-  grid-row-gap: 1.56rem;
+  grid-row-gap: 1.56rem; */
   width: 74rem;
 }
 
@@ -218,37 +222,37 @@ p {
   display: grid;
 }
 
-.div1,
+/* .div1, */
 #frame1 section div:nth-child(1),
 #frame2 section div:nth-child(1) {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-.div2,
+/* .div2, */
 #frame1 section div:nth-child(2),
 #frame2 section div:nth-child(2) {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-.div3,
+/* .div3, */
 #frame1 section div:nth-child(3),
 #frame2 section div:nth-child(3) {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-.div4,
+/* .div4, */
 #frame1 section div:nth-child(4),
 #frame2 section div:nth-child(4) {
   grid-area: 2 / 1 / 3 / 2;
 }
 
-.div5,
+/* .div5, */
 #frame1 section div:nth-child(5),
 #frame2 section div:nth-child(5) {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-.div6,
+/* .div6, */
 #frame1 section div:nth-child(6),
 #frame2 section div:nth-child(6) {
   grid-area: 2 / 3 / 3 / 4;
@@ -391,177 +395,4 @@ footer span {
 
 #design1 {
   top: 140rem;
-}
-
-@media only screen and (max-width: 834px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  nav,
-  nav ul,
-  nav ul li a {
-    display: none;
-  }
-
-  #logo {
-    margin-left: var(--tablet-margin);
-  }
-
-  #scroll {
-    top: 9.5rem;
-  }
-
-  #headline {
-    margin: 3.125rem 0 4.7rem var(--tablet-margin);
-  }
-
-  .subtitle {
-    font-size: 1.625rem;
-    line-height: 154%;
-  }
-
-  h1 {
-    font-size: 2.25rem;
-    line-height: 131%;
-  }
-
-  #CTA {
-    margin-left: var(--tablet-margin);
-    padding: 0.6rem 1.2rem;
-    font-size: 1.25rem;
-  }
-
-  #portrait {
-    height: 24.5rem;
-    margin: 2rem 0 0 0;
-  }
-
-  #hero-icons {
-    margin: 2.5rem 0 0 -1.5rem;
-  }
-
-  h3 {
-    font-size: 1.875rem;
-  }
-
-  #about-section {
-    height: 97rem;
-  }
-
-  #about-me {
-    top: 40rem;
-  }
-
-  #about-me,
-  #skills-title,
-  #skills {
-    margin-left: var(--tablet-margin);
-  }
-
-  #about-section p {
-    margin: 0 5.5rem 0 var(--tablet-margin);
-    top: 48rem;
-    font-size: 1.25rem;
-  }
-
-  #skills-title {
-    top: 80rem;
-  }
-
-  #skills {
-    top: 88rem;
-    width: 41rem;
-  }
-
-  #skills,
-  #frame1,
-  #frame2 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 1.25rem;
-    grid-row-gap: 1.25rem;
-  }
-
-  .div1,
-  #frame1 section div:nth-child(1),
-  #frame2 section div:nth-child(1) {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .div2,
-  #frame1 section div:nth-child(2),
-  #frame2 section div:nth-child(2) {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .div3,
-  #frame1 section div:nth-child(3),
-  #frame2 section div:nth-child(3) {
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  .div4,
-  #frame1 section div:nth-child(4),
-  #frame2 section div:nth-child(4) {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-  .div5,
-  #frame1 section div:nth-child(5),
-  #frame2 section div:nth-child(5) {
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .div6,
-  #frame1 section div:nth-child(6),
-  #frame2 section div:nth-child(6) {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-
-  #skills .subtitle {
-    font-size: 1.3rem;
-  }
-
-  #portfolio-section h3 {
-    margin-left: var(--tablet-margin);
-  }
-
-  #websites,
-  #figma,
-  #frame1 section,
-  #frame2 section {
-    margin-left: var(--tablet-margin);
-  }
-
-  #frame1 section,
-  #frame2 section {
-    width: 38rem;
-  }
-
-  #resume {
-    top: 144.5rem;
-    left: 33.6rem;
-  }
-
-  #design1 {
-    top: 132rem;
-  }
-
-  #design2 {
-    left: 38rem;
-    top: 215rem;
-  }
-
-  #design1 img,
-  #design2 img {
-    height: 35rem;
-  }
-
-  #frame1 section div,
-  #frame1 section div img,
-  #frame2 section div,
-  #frame2 section div img {
-    width: 18rem;
-    height: 10rem;
-  }
-
-  .overlay {
-    display: none;
-  }
 }
