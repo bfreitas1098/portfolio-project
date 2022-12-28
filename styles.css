@@ -9,9 +9,9 @@
   --secondary-color-light: #ffe7ad;
   --transition: ease-in-out 100ms;
   --border-radius: 5px;
-  --desktop-left-margin: 8rem;
-  --desktop-right-margin: 10rem;
-  --tablet-margin: 4.8rem;
+  --margin-1x: 10em;
+  --margin-2x: 20em;
+  --margin-halfx: 5em;
 }
 
 html {
@@ -25,27 +25,34 @@ body {
   font-family: "Work Sans", sans-serif;
   background-color: var(--primary-color-dark);
   overflow-x: hidden;
-  margin: 10em;
+  margin: var(--margin-1x);
 }
 
-#logo {
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
   font-family: "Lobster Two", cursive;
   font-weight: bold;
   font-style: italic;
   font-size: 3rem;
   color: var(--secondary-color-neutral);
-  justify-content: flex-start;
 }
 
-nav ul {
+.navbar {
+  transform: translateX(-2em);
+}
+
+.navbar ul {
   list-style: none;
-  justify-items: flex-end;
   align-items: center;
   padding: 0;
   gap: 7em;
 }
 
-nav li a {
+.navbar li a {
   color: var(--secondary-color-neutral);
   font-weight: 600;
   font-size: 2rem;
@@ -53,7 +60,7 @@ nav li a {
   transition: color var(--transition);
 }
 
-nav li a:hover {
+.navbar li a:hover {
   color: var(--secondary-color-light);
 }
 
@@ -66,7 +73,7 @@ nav li a:hover {
 
 #scrollbar1 {
   border: 4px solid #5c6470;
-  font-size: 30rem;
+  font-size: 34.3rem;
   border-radius: 1.25rem;
 }
 
@@ -81,7 +88,7 @@ nav li a:hover {
 
 #headline {
   color: var(--primary-color-light);
-  margin: 10em 0 5em 0;
+  margin: var(--margin-1x) 0 var(--margin-1x) 0;
 }
 
 .subtitle {
@@ -113,8 +120,8 @@ h1 {
 }
 
 #portrait {
-  height: 60rem;
-  margin: 9rem 0 0 12.5rem;
+  height: 60em;
+  margin: 9em 0 0 7.5em;
 }
 
 #hero-icons {
@@ -122,6 +129,8 @@ h1 {
   align-self: flex-start;
   flex-direction: column;
   font-size: 3.5rem;
+  transform: translateY(3.25em);
+  margin-left: 1.5em;
 }
 
 #hero-icons i {
@@ -167,7 +176,7 @@ p {
 
 #about-section p {
   top: 70rem;
-} */
+}
 
 #skills-title {
   top: 100rem;
@@ -191,10 +200,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 1.25rem;
-  grid-row-gap: 1.56rem; */
+  grid-row-gap: 1.56rem;
   width: 74rem;
 }
 
@@ -216,7 +225,7 @@ p {
 
 #skills .subtitle {
   font-size: 1.75rem;
-}
+} */
 
 #frame1 section {
   display: grid;
@@ -395,4 +404,10 @@ footer span {
 
 #design1 {
   top: 140rem;
+}
+
+@media only screen and (max-width: 1120px) {
+  nav {
+    display: none;
+  }
 }
