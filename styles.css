@@ -9,9 +9,9 @@
   --secondary-color-light: #ffe7ad;
   --transition: ease-in-out 100ms;
   --border-radius: 5px;
-  --margin-1x: 10em;
-  --margin-2x: 20em;
-  --margin-halfx: 5em;
+  --margin-1x: 12.7vh;
+  --margin-2x: 25.35vh;
+  --margin-halfx: 6.34vh;
 }
 
 html {
@@ -133,7 +133,7 @@ h1 {
 }
 
 #hero-icons i {
-  margin-bottom: 0.57em;
+  margin-bottom: 2.53vh;
   color: #8097b9;
 }
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 #about-me {
-  margin-top: 25.3vh;
+  margin-top: var(--margin-2x);
 }
 
 #about-me,
@@ -174,8 +174,10 @@ h3 {
 }
 
 #about-me,
-#skills-title {
-  margin-bottom: 6.34vh;
+#skills-title,
+#websites,
+#figma {
+  margin-bottom: var(--margin-halfx);
 }
 
 p {
@@ -186,7 +188,7 @@ p {
 }
 
 #about-section p {
-  margin: 0 4.5em 12.7vh 4.5em;
+  margin: 0 4.5em var(--margin-1x) 4.5em;
 }
 
 #skills {
@@ -261,14 +263,27 @@ p {
 }
 
 #portfolio-section h3 {
-  margin: 7.5rem 0 0 var(--desktop-left-margin);
+  margin: var(--margin-2x) 0 var(--margin-1x) 0;
+}
+
+#container {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #resume {
-  position: absolute;
-  top: 149.2rem;
-  left: 68.2rem;
+  height: 3rem;
+  align-self: center;
+  margin-top: 15vh;
+  transform: translateX(-3rem);
+}
+
+#resume a {
   text-decoration: none;
+}
+
+#wrapper:hover {
+  color: var(--secondary-color-light);
 }
 
 #resume span,
@@ -278,21 +293,17 @@ p {
 
 #resume span {
   font-weight: 600;
-  font-size: 1.56rem;
-  margin-right: 0.8rem;
+  font-size: 2.5rem;
+  margin-right: 1rem;
 }
 
 #resume i {
-  font-size: 1.5rem;
-}
-
-#websites {
-  margin: 6.25rem 0 0 var(--desktop-left-margin);
+  font-size: 2.5rem;
 }
 
 h4 {
   color: var(--primary-color-light);
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -301,13 +312,12 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  column-gap: 1.25rem;
-  row-gap: 1.25rem;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
   background-color: var(--primary-color-neutral);
   border-radius: var(--border-radius);
-  margin: 3.125rem 0 0 var(--desktop-left-margin);
-  padding: 1.75rem;
-  width: 78%;
+  padding: 2.5em;
+  width: 93%;
 }
 
 #frame1 section div,
@@ -315,14 +325,13 @@ h4 {
 #frame2 section div,
 #frame2 section div img {
   border-radius: var(--border-radius);
-  width: 22rem;
-  height: 14rem;
-  margin-left: 1px;
+  width: 36.6em;
+  height: 21.5em;
 }
 
 .overlay {
-  width: 22.1rem;
-  height: 14rem;
+  width: 36.6em;
+  height: 21.5em;
   position: absolute;
   border-radius: var(--border-radius);
   background-color: rgba(0, 0, 0, 0.6);
@@ -336,19 +345,23 @@ h4 {
 
 .overlay a {
   color: var(--primary-color-light);
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   text-decoration: none;
   border: 2px solid var(--primary-color-light);
   border-radius: 30px;
-  padding: 0.5rem;
+  padding: 0.5em 0.75em;
 }
 
 .overlay:hover {
   opacity: 100%;
 }
 
-#figma {
-  margin: 9.375rem 0 0 var(--desktop-left-margin);
+#frame1 {
+  margin-bottom: var(--margin-1x);
+}
+
+#frame2 {
+  margin-bottom: var(--margin-2x);
 }
 
 footer {
@@ -356,10 +369,9 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #15191e;
-  width: 100%;
-  padding: 1.875rem 0 1.875rem 0;
-  gap: 1.875rem;
-  margin-top: 9.375rem;
+  padding: 3.1em 53.5em;
+  gap: 3em;
+  margin: 0 -10em -10em -10em !important;
 }
 
 #footer-icons {
@@ -367,17 +379,17 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 5rem;
+  gap: 8em;
 }
 
 footer i {
   color: var(--primary-color-neutral);
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 footer span {
   color: var(--primary-color-light);
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #design1,
