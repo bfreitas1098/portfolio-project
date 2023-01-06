@@ -282,10 +282,6 @@ p {
   text-decoration: none;
 }
 
-#wrapper:hover {
-  color: var(--secondary-color-light);
-}
-
 #resume span,
 #resume i {
   color: var(--secondary-color-dark);
@@ -398,17 +394,24 @@ footer span {
   z-index: -1;
 }
 
+#design1 {
+  top: 232em;
+  left: -17em;
+}
+
 #design2 {
-  left: 74rem;
-  top: 210rem;
+  top: 350em;
+  left: 109em;
+}
+
+#design1 img {
+  width: 60em;
+  height: 65em;
 }
 
 #design2 img {
-  height: 50rem;
-}
-
-#design1 {
-  top: 140rem;
+  width: 45em;
+  height: 65em;
 }
 
 @media only screen and (max-width: 1120px) {
