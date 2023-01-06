@@ -418,4 +418,41 @@ footer span {
   nav {
     display: none;
   }
+
+  body {
+    margin: 11.01vh;
+  }
+
+  #scroll {
+    top: 16.5em;
+  }
+
+  #headline {
+    margin: var(--margin-halfx) -4.5em var(--margin-1x) 0;
+  }
+
+  .subtitle {
+    font-size: 2.6rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    line-height: 131%;
+  }
+
+  #portrait {
+    height: 45em;
+    margin: 4em 0 0 5em;
+  }
+
+  #CTA {
+    font-size: 2rem;
+    padding: 0.8em 0.9em;
+    margin-bottom: var(--margin-1x);
+  }
+
+  #hero-icons {
+    transform: none;
+    margin: -1em 0 0 0;
+  }
 }
